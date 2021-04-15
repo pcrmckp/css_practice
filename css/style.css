@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+h1,
+.hd_nav {
+  color: navy;
+}
+
+header h1 {
+  margin-left: 2rem;
+  margin-bottom: 0;
+}
+
+header .hd_nav {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-start;
+  list-style: none;
+  margin: 0;
+}
+
+header .hd_nav li {
+  font-size: 1.2rem;
+  width: 7.5rem;
+  height: 3rem;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+float {
+  width: 100%;
+}
+
+.float_img {
+  width: 400px;
+  height: 100px;
+  float: right;
+  margin: 120px 400px 0 auto;
+}
+
+p {
+  font-size: 4rem;
+  display: inline-block;
+  margin: 35rem auto 0 0;
+}
+
+.box {
+  width: 1200px;
+  height: 300px;
+  background: navy;
+  margin-bottom: 400px;
+  margin-top: 0;
+}
