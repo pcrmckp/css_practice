@@ -19,6 +19,7 @@ header h1 {
 header ul {
   position: relative;
   top: 40px;
+  margin: 0 0 0 auto;
 }
 
 header .hd_nav {
@@ -26,7 +27,6 @@ header .hd_nav {
   justify-content: flex-end;
   align-self: flex-start;
   list-style: none;
-  margin: 0;
 }
 
 header .hd_nav li {
@@ -39,12 +39,18 @@ header .hd_nav li {
 
 float {
   width: 100%;
+  display: flex;
 }
 
 .float_img {
-  width: 50%;
   float: right;
   margin: 120px 0 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  align-self: flex-end;
 }
 
 p {
@@ -54,9 +60,6 @@ p {
   margin: 35rem auto 0 0;
   position: relative;
   top: 20px;
-}
-
-.parent {
 }
 
 .box {
