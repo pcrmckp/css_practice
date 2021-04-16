@@ -7,9 +7,18 @@ h1,
   color: navy;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 header h1 {
   margin-left: 2rem;
-  margin-bottom: 0;
+}
+
+header ul {
+  position: relative;
+  top: 40px;
 }
 
 header .hd_nav {
@@ -33,16 +42,21 @@ float {
 }
 
 .float_img {
-  width: 400px;
-  height: 100px;
+  width: 50%;
   float: right;
-  margin: 120px 400px 0 auto;
+  margin: 120px 0 0 auto;
 }
 
 p {
-  font-size: 4rem;
+  font-weight: 100;
+  font-size: 5.5rem;
   display: inline-block;
   margin: 35rem auto 0 0;
+  position: relative;
+  top: 20px;
+}
+
+.parent {
 }
 
 .box {
